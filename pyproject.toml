@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docx-agent-sdk"
+version = "0.1.0"
+description = "Provider-agnostic SDK and CLI for DOCX extraction, summarization, comparison, and Q&A."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Docx Agent SDK Authors" }]
+dependencies = [
+    "openai>=1.0.0",
+    "pydantic>=2.0.0",
+    "python-docx>=1.1.0",
+    "rich>=13.0.0",
+    "typer>=0.12.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[project.scripts]
+docx-agent = "docx_agent_sdk.cli.main:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
