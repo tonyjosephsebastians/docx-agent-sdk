@@ -16,7 +16,7 @@ Python SDK and CLI for analyzing `.docx` files with OpenAI or Azure OpenAI.
 pip install -e ".[dev]"
 ```
 
-## Configure
+
 
 OpenAI:
 
