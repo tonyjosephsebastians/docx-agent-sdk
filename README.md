@@ -7,7 +7,7 @@ Python SDK and CLI for analyzing `.docx` files with OpenAI or Azure OpenAI.
 - Extract paragraphs and tables from DOCX files.
 - Summarize DOCX files with an injected model provider.
 - Compare two DOCX files and return structured JSON changes.
-- Ask questions over DOCX content.
+- Ask questions  DOCX content.
 - Use OpenAI or Azure OpenAI through the   `openai` Python.
 
 ## Install
