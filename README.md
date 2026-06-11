@@ -1,6 +1,6 @@
 # DOCX Agent SDK v1
 
-Python SDK and CLI for analyzing `.docx` files with OpenAI or Azure OpenAI.
+Python SDK and CLI  analyzing `.docx` files with OpenAI or Azure OpenAI.
 
 ## Features
 
